@@ -57,7 +57,6 @@ om curl -p /api/v0/staged/director/availability_zones
 
 you should recieve an output that looks something like this. 
 
-**The GUIDs are important to keep the same**
 
 ```json
 {
@@ -87,7 +86,7 @@ you should recieve an output that looks something like this.
 }
 ```
 
-2. modify the json that was output to remove the old cluster from the list
+1. modify the json that was output to remove the old cluster from the list
 
 **be sure to keep the GUID the same on the az and cluster**
 
