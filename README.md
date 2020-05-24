@@ -4,6 +4,8 @@ this doc describes how to migrate a pks installation and any other bosh managed 
 
 **Warning: migrating clusters can cuase issues if the new cluster does not have the same network and storage attached, be sure to validate before doing this.you can vmotion a test vm to validate** 
 
+**Note:** if you are planning on delete the old cluster afterward make sure you move the opsmanager over to the new cluster using vmotion. 
+
 ## Setup 
 
 * download the om [om cli](https://github.com/pivotal-cf/om/releases)
