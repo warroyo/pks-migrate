@@ -86,7 +86,7 @@ you should recieve an output that looks something like this.
 }
 ```
 
-1. modify the json that was output to remove the old cluster from the list
+2. modify the json that was output to remove the old cluster from the list
 
 **be sure to keep the GUID the same on the az and cluster**
 
